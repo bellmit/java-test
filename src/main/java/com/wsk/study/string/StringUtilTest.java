@@ -1,4 +1,4 @@
-package com.iflytek.study.apacheUtils;
+package com.wsk.study.string;
 
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
@@ -13,10 +13,10 @@ import java.util.List;
  * @CreateDate: 2019/1/21 11:37
  * @Version: 1.0
  **/
-public class JavaTest {
+public class StringUtilTest {
 
 
-    public final static Logger logger = LoggerFactory.getLogger(JavaTest.class);
+    public final static Logger logger = LoggerFactory.getLogger(StringUtilTest.class);
 
     public static void main(String[] args) {
         String s1 = "";

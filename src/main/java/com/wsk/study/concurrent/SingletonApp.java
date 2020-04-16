@@ -1,4 +1,4 @@
-package com.iflytek.study.concurrent;
+package com.wsk.study.concurrent;
 
 /**
  * DCL + volatile  ==>  双重校验锁+volatile 非常高性能的单例模式

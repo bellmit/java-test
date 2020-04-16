@@ -1,4 +1,4 @@
-package com.iflytek.study.execctors;
+package com.wsk.study.execctors;
 
 import java.util.Random;
 import java.util.concurrent.Executors;

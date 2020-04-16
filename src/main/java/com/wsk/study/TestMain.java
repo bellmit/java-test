@@ -1,7 +1,7 @@
-package com.iflytek.study;
+package com.wsk.study;
 
-import com.iflytek.study.threadPoll.ThreadPollExecutorTest;
-import com.iflytek.study.threads.thread.MyThread;
+import com.wsk.study.threadPoll.ThreadPollExecutorTest;
+import com.wsk.study.threads.thread.MyThread;
 
 import java.util.ArrayList;
 import java.util.List;

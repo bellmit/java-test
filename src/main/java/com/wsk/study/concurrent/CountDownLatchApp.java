@@ -1,4 +1,4 @@
-package com.iflytek.study.concurrent;
+package com.wsk.study.concurrent;
 
 import java.util.concurrent.CountDownLatch;
 

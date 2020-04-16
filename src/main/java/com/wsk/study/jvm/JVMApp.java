@@ -1,4 +1,4 @@
-package com.iflytek.study.jvm;
+package com.wsk.study.jvm;
 
 /**
  */
