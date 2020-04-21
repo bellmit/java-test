@@ -32,7 +32,8 @@ public class FlinkHistoryLogAnalysisToJDBC {
         StringBuilder sql = new StringBuilder("insert into iitcore_flink_history(jid,name,state,start_time,end_time," +
                 "duration,last_modification,customer_ids,exceptions,exception_time)values(?,?,?,?,?,?,?,?,?,?)");
         Connection connection = JDBCUtil.getConnection("root", "servyou", "jdbc:mysql://10.199.140" +
-                ".143:3306/bdps_dcs_test?useUnicode=true&characterEncoding=utf-8", "com.mysql.jdbc.Driver");
+                ".143:3306/dev_test?useUnicode=true&characterEncoding=utf-8", "com.mysql.jdbc.Driver");
+        PreparedStatement preparedStatement = null;
         try (PreparedStatement statement = connection.prepareStatement(sql.toString())) {
             for (File f : files) {
                 String fileName = f.getName();
@@ -142,7 +143,7 @@ public class FlinkHistoryLogAnalysisToJDBC {
                         }
                     }
                     //System.err.println(sql);
-                    statement.execute();
+                    boolean execute = statement.execute();
                 } catch (IOException e) {
                     e.printStackTrace();
                 } finally {

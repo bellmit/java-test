@@ -25,7 +25,7 @@ public class JDBCUtil {
             dataSource.setAcquireIncrement(1);
             dataSource.setMaxPoolSize(1);
             conn = dataSource.getConnection();
-            conn.setAutoCommit(false);//设置自动提交为否
+//            conn.setAutoCommit(false);//设置自动提交为否
             System.out.println("连接成功！");
         } catch (Exception e) {
             e.printStackTrace();
