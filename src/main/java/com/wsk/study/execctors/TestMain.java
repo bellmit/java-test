@@ -1,7 +1,7 @@
-package com.wsk.study;
+package com.wsk.study.execctors;
 
-import com.wsk.study.threadPoll.ThreadPollExecutorTest;
-import com.wsk.study.threads.thread.MyThread;
+import com.wsk.study.execctors.threadPoll.ThreadPollExecutorTest;
+import com.wsk.study.execctors.thread.MyThread;
 
 import java.util.ArrayList;
 import java.util.List;

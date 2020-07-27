@@ -1,4 +1,4 @@
-package com.wsk.study.threadPoll;
+package com.wsk.study.execctors.threadPoll;
 
 import java.util.Random;
 import java.util.concurrent.*;

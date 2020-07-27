@@ -1,4 +1,4 @@
-package com.wsk.study.threads.thread;
+package com.wsk.study.execctors.thread;
 
 import java.util.Random;
 

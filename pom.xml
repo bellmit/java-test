@@ -55,6 +55,31 @@
             <artifactId>c3p0</artifactId>
             <version>0.9.5.2</version>
         </dependency>
+        <dependency>
+            <groupId>org.apache.flink</groupId>
+            <artifactId>flink-connector-elasticsearch6_2.11</artifactId>
+            <version>1.10.0</version>
+        </dependency>
+
+        <!-- io start      -->
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-all</artifactId>
+            <version>4.1.15.Final</version>
+        </dependency>
+
+        <!--Google 的Protobuf坐标-->
+        <dependency>
+            <groupId>com.google.protobuf</groupId>
+            <artifactId>protobuf-java</artifactId>
+            <version>3.6.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.reflections</groupId>
+            <artifactId>reflections</artifactId>
+            <version>0.9.10</version>
+        </dependency>
     </dependencies>
 
 
