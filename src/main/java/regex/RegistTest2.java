@@ -1,4 +1,4 @@
-package com.wsk.study.string;
+package regex;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -9,7 +9,7 @@ import java.util.regex.Pattern;
  * @Date: 2019/12/16 20:03
  * @Version: 1.0
  */
-public class RegistTest {
+public class RegistTest2 {
     public static void main(String[] args) {
 
         //正则

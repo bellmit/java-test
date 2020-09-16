@@ -3,7 +3,10 @@ package com.wsk.study.date;
 import org.apache.commons.lang3.time.DateFormatUtils;
 import org.apache.commons.lang3.time.DateUtils;
 
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.Date;
+import java.util.GregorianCalendar;
 
 /**
  * @Description: 测试线程安全的 时间类型转换
@@ -24,5 +27,13 @@ public class DateFormatUtilsTest {
                 "yyyy-MM-dd HH:mm:ss",
                 "yyyy/MM/dd HH:mm:ss"};
         System.out.println(DateUtils.parseDate("2011-11-11", pattern));
+
+
+
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+        Calendar calendar = new GregorianCalendar();
+        calendar.setTime(new Date());
+        calendar.add(Calendar.DATE,-2 );
+        System.out.println(sdf.format(calendar.getTime()));
     }
 }

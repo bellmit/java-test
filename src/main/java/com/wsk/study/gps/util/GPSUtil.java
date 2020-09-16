@@ -1,4 +1,4 @@
-package com.asiabasehk.cgg.util;
+package com.wsk.study.gps.util;
 /**火星坐标系 (GCJ-02) 与百度坐标系 (BD-09) 的互转
  * Created by macremote on 16/5/3.
  */
