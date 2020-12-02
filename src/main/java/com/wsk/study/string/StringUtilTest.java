@@ -87,5 +87,7 @@ public class StringUtilTest {
         logger.info("--------------------StringUtils.Substring test--------------------------");
         String s1 = "decimal(10,2)";
         System.out.println(StringUtils.substring(s1,0,s1.indexOf("(")));
+        int i = 0;
+        int h = 10/i;
     }
 }
