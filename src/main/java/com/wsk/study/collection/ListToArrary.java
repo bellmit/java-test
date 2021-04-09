@@ -17,7 +17,7 @@ public class ListToArrary {
         arrayList.add("test");
         arrayList.add("123");
 
-        String[] array1 = arrayList.  toArray(new String[arrayList.size()]);
+        String[] array1 = arrayList. toArray(new String[arrayList.size()]);
         String[] array2 = arrayList.toArray(new String[0]);
 
         System.out.println(array1.length);

@@ -21,10 +21,15 @@ public class BigDecimalTest {
         BigDecimal b3=new BigDecimal(s3);
 
         BigDecimal b4=new BigDecimal(s4);
+        BigDecimal b5=new BigDecimal("-3.5");
+        BigDecimal b6=new BigDecimal("-3.6");
 
         System.out.println(""+b1.compareTo(b4));
         System.out.println(""+b2.compareTo(b4));
         System.out.println(""+b3.compareTo(b4));
+
+        System.out.println(b5.doubleValue());
+        System.out.println(""+b5.compareTo(b6));
 
 
     }
