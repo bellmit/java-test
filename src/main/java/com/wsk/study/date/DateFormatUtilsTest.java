@@ -16,6 +16,8 @@ import java.util.GregorianCalendar;
  */
 public class DateFormatUtilsTest {
     public static void main(String[] args) throws Exception {
+
+
         //(DateFormatUtils.format(date,string) 和simpledateformat类中的format（）方法
         System.out.println(DateFormatUtils.format(new Date(), "yyyy-MM-dd hh:mm:ss"));
         System.out.println(DateFormatUtils.format(new Date(), "yyyyMMdd"));
@@ -30,6 +32,8 @@ public class DateFormatUtilsTest {
 
 
 
+
+
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
         Calendar calendar = new GregorianCalendar();
         calendar.setTime(new Date());
@@ -37,3 +41,4 @@ public class DateFormatUtilsTest {
         System.out.println(sdf.format(calendar.getTime()));
     }
 }
+

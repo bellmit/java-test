@@ -36,8 +36,11 @@ public class ExceptionMessageTest {
     private static void chu(int i, int i1) {
         try {
             int result = i/i1;
-        }catch (Exception e){
-            LOG.error("计算报错",e);
+        }catch (ArithmeticException e){
+            LOG.error("计算报错1",e);
+        }
+        catch (Exception e){
+            LOG.error("计算报错2",e);
             throw new RuntimeException("计算错误",e);
         }
     }
